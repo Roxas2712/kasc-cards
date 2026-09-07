@@ -1,7 +1,9 @@
-KASC NG+ performance hotfix is available with updated Red/Blue/Yellow Cards.
-KASC 6.7.0-rc.4 fixes repeated Legacy Bank reads and removes KASC diagnostic/repro markers.
-Cards 1.3.0-rc.4 retain IDs/artwork/save scope and pin KASC RC4 + VASC RC66g.
-Close the game, keep saves AND mod_storage, import the updated Card and replace KASC, then restart.
-https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.0-rc.4
-https://github.com/Roxas2712/kanto-ascendant/releases/tag/v6.7.0-rc.4
-Windows player confirmation is pending; first-load migration may still pause.
+# KASC Cards — HD Download Fallback
+
+Updated Red, Blue and Yellow Cards pin **KASC 6.7.0-rc.5** and **VASC 3.0.0-rc.15.1** with their exact ZIP SHA256 checksums. VASC automatically retries failed HD content requests through the additional hosting address. KASC adds only the matching version admission and retains the RC4 NG+ performance fix.
+
+Download the `.g1rcart` for your edition, import it, update both pinned mods and restart the game. Keep saves and mod_storage. All three Card IDs, artwork, options, seal and save scope are preserved. Cards contain configuration/art only, with no ROMs or mod-code copies.
+
+- [KASC mod](https://github.com/Roxas2712/kanto-ascendant/releases/tag/v6.7.0-rc.5)
+- [VASC mod](https://github.com/Roxas2712/voxel-ascendant/releases/tag/v3.0.0-rc.15.1)
+- Index: https://raw.githubusercontent.com/Roxas2712/kasc-cards/main/kasc-card-index.json
