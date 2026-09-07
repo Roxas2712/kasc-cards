@@ -1,23 +1,19 @@
-🎮 **KASC Cards now have their own repository!** 🔴🔵🟡
+🎮 **Your Kanto adventure, now as a Card!** 🔴🔵🟡
 
-The Cards bring **Kanto Ascendant + Voxel Ascendant** together in the Recompiler.
-They contain the launch setup and edition artwork — the actual mods stay in
-their own repositories.
+Choose **Red, Blue or Yellow** and bring **Kanto Ascendant + Voxel Ascendant** together in the Recompiler! ✨
 
-📦 **Cards:** https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.0-rc.3
-🛠️ **KASC mod + Riolu hotfix:** https://github.com/Roxas2712/kanto-ascendant/releases/tag/v6.7.0-rc.3
-🌍 **VASC:** https://github.com/Roxas2712/voxel-ascendant/releases/tag/v3.0.0-rc66g
+🗺️ **KASC's expanded Kanto adventure** meets **VASC's voxel presentation** — gameplay and visuals together in one ready-configured Card setup.
 
-🥚 Riolu → Lucario is included through the required **KASC RC3** mod. The Cards
-pin that version together with **VASC RC66g / 3.0.0-rc.15**.
+🎨 **Three edition Cards**, each with its own original cover artwork. Pick the edition that matches your ROM and give your adventure its own place in the launcher.
 
-Already using the RC3 Cards? These are the **same files**, with the same Card
-IDs and save scope. No restart needed just because the repository moved!
-Existing download links remain available. ❤️
+📦 **The right mods together:** each Card specifies the matching KASC and VASC versions, so you don't have to guess which pair to install. The mods stay separate; the Card brings them together when you play.
 
-For new installations, add this source in **Find mods**, import your edition
-Card and install its required mods:
-https://raw.githubusercontent.com/Roxas2712/kasc-cards/main/kasc-card-index.json
+💾 **Already using these Cards?** Their identities and save scope are unchanged — moving the downloads to their own repository doesn't mean starting over!
 
-⚠️ Back up your saves first. This is a distribution change, not a new gameplay
-release or a claim that the deferred backlog is complete.
+🚀 **Get your Card:**
+https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.0-rc.3
+
+📖 **Setup & downloads:**
+https://github.com/Roxas2712/kasc-cards#installation
+
+You'll need your own matching ROM and a Recompiler with Custom Carts support. Import your edition's Card, install its required mods, and play. Back up your saves before updating. ❤️

@@ -55,7 +55,8 @@ features. See the separate mod release notes for known limitations.
 
 ## Verification
 
-As checked on 2026-09-07, RC3 and RC66g are the newest published prereleases.
+On 2026-09-07, KASC RC3 and VASC RC66g were promoted to regular public releases
+without changing their files or internal version identifiers.
 This exact pair passed the recorded Red/Blue/Yellow native Card boot,
 Riolu evolution and save/reload tests on host 0.2.56. This is **not** a promise
 that every setting, device or gameplay state is bug-free. VASC still lists an
