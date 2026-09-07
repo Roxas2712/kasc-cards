@@ -20,8 +20,10 @@ if __name__=='__main__':
     old=get('https://raw.githubusercontent.com/Roxas2712/kanto-ascendant/codex/kasc-6.7-card-distribution/kasc-card-index.json')
     assert len(json.loads(old)['carts'])==3
     release=json.loads(get('https://api.github.com/repos/Roxas2712/kasc-cards/releases/tags/v1.3.0-rc.3'))
-    assert release['prerelease'] and not release['draft']
+    assert not release['prerelease'] and not release['draft']
+    latest=json.loads(get('https://api.github.com/repos/Roxas2712/kasc-cards/releases/latest'))
+    assert latest['tag_name']=='v1.3.0-rc.3'
     assert len((ROOT/'DISCORD-EN.md').read_text())<=2000
     print(json.dumps(dict(status='PASS',files=files,newAndOriginalDownloads=True,
-      publicIndexExact=True,originalIndexAvailable=True,publicPrerelease=True,
+      publicIndexExact=True,originalIndexAvailable=True,publicStableLatest=True,
       discordWithin2000Characters=True),indent=2))

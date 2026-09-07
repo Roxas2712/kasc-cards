@@ -1,19 +1,30 @@
-🎮 **Your Kanto adventure, now as a Card!** 🔴🔵🟡
+🎮✨ **KANTO ASCENDANT CARDS — OUT NOW!** 🔴🔵🟡
 
-Choose **Red, Blue or Yellow** and bring **Kanto Ascendant + Voxel Ascendant** together in the Recompiler! ✨
+**KASC 6.7 + Voxel Ascendant**, together in the Recompiler. Choose Red, Blue or Yellow, each with its own edition artwork!
 
-🗺️ **KASC's expanded Kanto adventure** meets **VASC's voxel presentation** — gameplay and visuals together in one ready-configured Card setup.
+🌍 **A living Kanto:** visible wild Pokémon, roaming rivals in **A Life of a Rival**, ranked trainer rematches and an expanded postgame.
 
-🎨 **Three edition Cards**, each with its own original cover artwork. Pick the edition that matches your ROM and give your adventure its own place in the launcher.
+🏆 **Keep battling:** Leader missions, adaptive circuits, Battle Frontier, Battle Factory, Heritage Cups, world-rank tournaments and Johto Masters.
 
-📦 **The right mods together:** each Card specifies the matching KASC and VASC versions, so you don't have to guess which pair to install. The mods stay separate; the Card brings them together when you play.
+🚀 **Rocket Raids:** separate raid instances with varied enemy teams, leaving the original locations intact.
 
-💾 **Already using these Cards?** Their identities and save scope are unchanged — moving the downloads to their own repository doesn't mean starting over!
+🌋 **Explore more:** starter habitats, a multi-floor Moltres volcano, hidden Regi sanctuaries, Hoenn legendary encounters, Mew/Celebi Signals and repeatable S.S. Anne voyages.
 
-🚀 **Get your Card:**
-https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.0-rc.3
+🎲 **New Game+:** choose your partner, Random Starter Pool or Random Global. Your rival's random partner is rolled independently.
 
-📖 **Setup & downloads:**
-https://github.com/Roxas2712/kasc-cards#installation
+🥚 **Raise your team:** Route 5 breeding, hatching, shinies, gift Pokémon and shiny eggs. Build Riolu's friendship and evolve it into Lucario by day!
 
-You'll need your own matching ROM and a Recompiler with Custom Carts support. Import your edition's Card, install its required mods, and play. Back up your saves before updating. ❤️
+💥 **More battle options:** Mega Evolution, generation-aware AUTO/manual rules, earlier legal tutor/TM moves and supported held items, berries and abilities.
+
+🏦 **Legacy Bank:** Kanto ↔ Gold/Silver/Crystal transfers on compatible hosts, with destination rules and shared Mega equipment permissions.
+
+📖 **151 → 251 regular Dex entries** as you unlock Johto, plus optional discoveries. The internal catalogue reaches **#1025** for supported gifts — not 1,025 wild encounters or every form unlocked!
+
+🎨 **Choose your look:** voxel environments, Crystal-style animations, expanded later-generation sprites with static fallbacks, and optional HD Pokémon downloads.
+
+📦 **Cards & setup:**
+https://github.com/Roxas2712/kasc-cards
+
+Your own matching ROM and a Custom Carts-capable Recompiler are required. Install the Card's matching mods and back up your saves.
+
+Thank you for waiting and adventuring with me! ❤️

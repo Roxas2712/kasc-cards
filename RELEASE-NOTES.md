@@ -1,4 +1,4 @@
-# KASC Cards 1.3.0-rc.3
+# KASC Cards — Red, Blue & Yellow
 
 Separate Card distribution for **Red, Blue and Yellow**. These are the same
 byte-identical Cards previously published in KASC's RC3 release, now in their
@@ -20,6 +20,17 @@ https://raw.githubusercontent.com/Roxas2712/kasc-cards/main/kasc-card-index.json
 [Installation / known limitations](https://github.com/Roxas2712/kasc-cards#installation)
 · [Deutsche Anleitung](https://github.com/Roxas2712/kasc-cards/blob/main/INSTALLATION-DE.md)
 
-Back up saves first. This is a distribution-only prerelease, not a new gameplay
+Back up saves first. This is a regular public Card release, not a new gameplay
 fix or an all-platform compatibility guarantee. VASC's published graphics issue
 remains open. All original KASC download links remain available.
+
+Promoted without changing Card files, identities or version pins. The existing
+`v1.3.0-rc.3` tag is retained for working links and matching installations.
+
+## Edition artwork
+
+![Red](https://raw.githubusercontent.com/Roxas2712/kasc-cards/main/art/red.png)
+![Blue](https://raw.githubusercontent.com/Roxas2712/kasc-cards/main/art/blue.png)
+![Yellow](https://raw.githubusercontent.com/Roxas2712/kasc-cards/main/art/yellow.png)
+
+[Feature announcement and images for Discord](https://github.com/Roxas2712/kasc-cards/blob/main/DISCORD-EN.md)
