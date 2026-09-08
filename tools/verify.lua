@@ -8,21 +8,21 @@ local receipts=assert(J.decode(read(root..'/PACKAGE-RECEIPTS.json')))
 local feed=assert(I.parse(read(repo..'/kasc-card-index.json'),J));assert(#feed.carts==3 and #feed.mods==6)
 local report={status='PASS',scope='native Card codec, exact-pin index resolution, save identity/art/options preservation and KASC compatibility range',cards={}}
 for _,ed in ipairs({'red','blue','yellow'})do
- local before=assert(C.decode(read(repo..'/cards/kanto-ascendant-'..ed..'-1.3.0-rc.9.g1rcart')))
- local after=assert(C.decode(read(repo..'/cards/kanto-ascendant-'..ed..'-1.3.0-rc.10.g1rcart')))
- assert(after.version=='1.3.0-rc.10' and C.publishable(after));assert(C.labelArtBytes(before)==C.labelArtBytes(after))
+ local before=assert(C.decode(read(repo..'/cards/kanto-ascendant-'..ed..'-1.3.0-rc.10.g1rcart')))
+ local after=assert(C.decode(read(repo..'/cards/kanto-ascendant-'..ed..'-1.3.0-rc.11.g1rcart')))
+ assert(after.version=='1.3.0-rc.11' and C.publishable(after));assert(C.labelArtBytes(before)==C.labelArtBytes(after))
  assert(C.hash(assert(C.decode(C.encode(after))))==C.hash(after))
  local row;for _,r in ipairs(feed.carts)do if r.id==after.id then row=r end end
- assert(row and row.version==after.version and row.downloadURL:find('v1.3.0-rc.10/',1,true))
+ assert(row and row.version==after.version and row.downloadURL:find('v1.3.0-rc.11/',1,true))
  for i,pin in ipairs(after.mods)do
-  local expected=pin.id=='kanto_ascendant' and '6.7.0-rc.8' or '3.0.6'
+  local expected=pin.id=='kanto_ascendant' and '6.7.0-rc.9' or '3.0.6'
   local hash=pin.id=='kanto_ascendant' and receipts.kasc.sha256 or receipts.vasc.sha256
   assert(pin.version==expected and pin.sha256==hash)
   assert(row.mods[i].version==expected and row.mods[i].sha256==hash)
   local release
   for _,m in ipairs(feed.mods)do if m.id==pin.id and Sem.compare(I.displayVersion(m),pin.version)==0 then release=I.releaseFor(m);break end end
   assert(release and release.version==expected)
-  assert(release.zip.url:find(pin.id=='kanto_ascendant' and '/v6.7.0-rc.8/' or '/v3.0.6/',1,true))
+  assert(release.zip.url:find(pin.id=='kanto_ascendant' and '/v6.7.0-rc.9/' or '/v3.0.6/',1,true))
  end
  report.cards[#report.cards+1]={id=after.id,version=after.version,mods=after.mods,artBytes=#C.labelArtBytes(after)}
  -- A deep decode keeps the receipt's pins independent of these comparisons.

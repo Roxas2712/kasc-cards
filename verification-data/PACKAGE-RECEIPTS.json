@@ -11,19 +11,13 @@
     ]
   },
   "kasc": {
-    "file": "kanto_ascendant-6.7.0-rc.8.zip",
-    "sha256": "c51b1ab40a1ca21ac8295a9514dcec19a0885221e49b3b97b27b9fb82b50c2e7",
-    "baseSha256": "c7dd5b166f3eeed6b622d98261c35434b0739f842f18b4441e9862a2b9e482fc",
+    "file": "kanto_ascendant-6.7.0-rc.9.zip",
+    "sha256": "63452d883ebb317f5ff58abebfded023cf4485076080f4476c24c87d3bdb21f0",
+    "baseSha256": "c51b1ab40a1ca21ac8295a9514dcec19a0885221e49b3b97b27b9fb82b50c2e7",
     "changed": [
       ".modkit/pack.json",
-      "generation_move_catalog_67.lua",
-      "main.lua",
       "manifest.json",
-      "mega_evolution.lua",
-      "pokemon_equipment_runtime_67.lua",
-      "rematch_clock.lua",
-      "rematch_mastery.lua",
-      "trainer_recruits.lua"
+      "summary_insights.lua"
     ]
   }
 }
