@@ -1,10 +1,15 @@
 {
   "vasc": {
-    "file": "Voxel-Ascendant-3.0.11.zip",
-    "sha256": "64a3a0ebcf92c747851c8c0b6b4b496fd99906fac1a4844f827ff04959e5566f",
-    "baseSha256": "e5d786092a9e53dccd75dc2ff9cc2162ad3e60ff877e1aee1337ee1be1c64877",
+    "file": "Voxel-Ascendant-3.0.12.zip",
+    "sha256": "229815f4391c6255ed80c927a39b0ac25c826a267acd2156b0fd504c48f63a05",
+    "baseSha256": "64a3a0ebcf92c747851c8c0b6b4b496fd99906fac1a4844f827ff04959e5566f",
     "changed": [
-      "lib/MoveLearnPresentation.lua",
+      "battle_hud_oras.lua",
+      "data/battle_arenas.lua",
+      "lib/ArenaGround.lua",
+      "lib/BattleArena.lua",
+      "lib/BattleCam.lua",
+      "lib/OverworldBattle.lua",
       "manifest.json",
       "runtime-receipt.json"
     ]
