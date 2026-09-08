@@ -1,19 +1,11 @@
 {
   "vasc": {
-    "file": "Voxel-Ascendant-3.0.5.zip",
-    "sha256": "fc4533a3ba83256bb7895a0785cee4d41f7f76b900b5424aa8cabcd20cdf2ed9",
-    "baseSha256": "721510466282a9a30b9b0b4d41d52a2f65e172ef6456c69787e262b0f2b0940c",
+    "file": "Voxel-Ascendant-3.0.6.zip",
+    "sha256": "64a463e9f0a2f50bd058d13817c4d332123c6324acded7d30a18de052417c50e",
+    "baseSha256": "fc4533a3ba83256bb7895a0785cee4d41f7f76b900b5424aa8cabcd20cdf2ed9",
     "changed": [
-      "battle_hud_oras.lua",
-      "lib/FollowerMovementInput.lua",
-      "lib/Gen1MobileMenuBridge.lua",
-      "lib/ManualBagSort.lua",
-      "lib/OverworldBattle.lua",
-      "lib/PartyMenuSkins.lua",
-      "lib/PerformanceDiagnostics.lua",
-      "lib/PokemonUiGen1Hosts.lua",
-      "lib/adapters/gen1/OverworldBattlePublic.lua",
-      "main_gen1.lua",
+      "integrated/ascendant_pokemon_overworld/src/follower_gen1.lua",
+      "integrated/ascendant_pokemon_overworld/src/runtime.lua",
       "manifest.json",
       "runtime-receipt.json"
     ]
