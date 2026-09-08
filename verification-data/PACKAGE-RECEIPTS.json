@@ -1,10 +1,10 @@
 {
   "vasc": {
-    "file": "Voxel-Ascendant-3.0.10.zip",
-    "sha256": "e5d786092a9e53dccd75dc2ff9cc2162ad3e60ff877e1aee1337ee1be1c64877",
-    "baseSha256": "4ef16ed2d9acb97f620e1480e7a6f78a423f9730ec6197aa2f0647f0ab275f99",
+    "file": "Voxel-Ascendant-3.0.11.zip",
+    "sha256": "64a3a0ebcf92c747851c8c0b6b4b496fd99906fac1a4844f827ff04959e5566f",
+    "baseSha256": "e5d786092a9e53dccd75dc2ff9cc2162ad3e60ff877e1aee1337ee1be1c64877",
     "changed": [
-      "gen2/lib/GoldSubmenuBattleStyle.lua",
+      "lib/MoveLearnPresentation.lua",
       "manifest.json",
       "runtime-receipt.json"
     ]
