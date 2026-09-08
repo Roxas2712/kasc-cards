@@ -1,4 +1,4 @@
-"""Verify new Card and matching KASC release Card downloads anonymously."""
+"""Verify new Card and matching VASC release Card downloads anonymously."""
 import hashlib,json,urllib.request
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
@@ -8,7 +8,7 @@ def get(url):
 def check(line):
     digest,path=line.split();name=Path(path).name
     assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest
-    for repo,tag in [('kasc-cards','v1.3.0-rc.12'),('kanto-ascendant','v6.7.0-rc.9')]:
+    for repo,tag in [('kasc-cards','v1.3.0-rc.12'),('voxel-ascendant','v3.0.7')]:
         url=f'https://github.com/Roxas2712/{repo}/releases/download/{tag}/{name}'
         assert hashlib.sha256(get(url)).hexdigest()==digest,url
     return name
