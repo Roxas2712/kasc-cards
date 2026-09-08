@@ -8,7 +8,7 @@ def get(url):
 def check(line):
     digest,path=line.split();name=Path(path).name
     assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest
-    for repo,tag in [('kasc-cards','v1.3.0-rc.11'),('kanto-ascendant','v6.7.0-rc.9')]:
+    for repo,tag in [('kasc-cards','v1.3.0-rc.12'),('kanto-ascendant','v6.7.0-rc.9')]:
         url=f'https://github.com/Roxas2712/{repo}/releases/download/{tag}/{name}'
         assert hashlib.sha256(get(url)).hexdigest()==digest,url
     return name
@@ -19,10 +19,10 @@ if __name__=='__main__':
     assert feed==(ROOT/'kasc-card-index.json').read_bytes()
     old=get('https://raw.githubusercontent.com/Roxas2712/kanto-ascendant/codex/kasc-6.7-card-distribution/kasc-card-index.json')
     assert len(json.loads(old)['carts'])==3
-    release=json.loads(get('https://api.github.com/repos/Roxas2712/kasc-cards/releases/tags/v1.3.0-rc.11'))
+    release=json.loads(get('https://api.github.com/repos/Roxas2712/kasc-cards/releases/tags/v1.3.0-rc.12'))
     assert not release['prerelease'] and not release['draft']
     latest=json.loads(get('https://api.github.com/repos/Roxas2712/kasc-cards/releases/latest'))
-    assert latest['tag_name']=='v1.3.0-rc.11'
+    assert latest['tag_name']=='v1.3.0-rc.12'
     assert len((ROOT/'DISCORD-EN.md').read_text())<=2000
     print(json.dumps(dict(status='PASS',files=files,newAndOriginalDownloads=True,
       publicIndexExact=True,originalIndexAvailable=True,publicStableLatest=True,
