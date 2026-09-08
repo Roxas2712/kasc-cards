@@ -10,14 +10,12 @@
     ]
   },
   "kasc": {
-    "file": "kanto_ascendant-6.7.0-rc.10.zip",
-    "sha256": "b10285ab87aaf3f74eb309e253566a3b99c893bf8b9c41c0aca40062f957ca06",
-    "baseSha256": "63452d883ebb317f5ff58abebfded023cf4485076080f4476c24c87d3bdb21f0",
+    "file": "kanto_ascendant-6.7.0-rc.11.zip",
+    "sha256": "99a6276b6b14a1993237fb323b4d46953b1bccaf14930227be01e1f1f0a9bb3c",
+    "baseSha256": "b10285ab87aaf3f74eb309e253566a3b99c893bf8b9c41c0aca40062f957ca06",
     "changed": [
       ".modkit/pack.json",
-      "difficulty.lua",
       "hevo_packages.lua",
-      "legacy_wanderers.lua",
       "manifest.json"
     ]
   }
