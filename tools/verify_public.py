@@ -8,7 +8,7 @@ def get(url):
 def check(line):
     digest,path=line.split();name=Path(path).name
     assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest
-    for repo,tag in [('kasc-cards','v1.3.0-rc.20'),('voxel-ascendant','v3.0.13')]:
+    for repo,tag in [('kasc-cards','v1.3.0-rc.20'),('kanto-ascendant','v6.7.3')]:
         url=f'https://github.com/Roxas2712/{repo}/releases/download/{tag}/{name}'
         assert hashlib.sha256(get(url)).hexdigest()==digest,url
     return name
