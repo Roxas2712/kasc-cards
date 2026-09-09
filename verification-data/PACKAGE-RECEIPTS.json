@@ -77,12 +77,13 @@
     ]
   },
   "kasc": {
-    "file": "kanto_ascendant-6.7.2.zip",
-    "sha256": "fa7054c819839dc05531c94b98c240f4475692a9fffbe88bc2700f895724cdcf",
-    "baseSha256": "d92eedecdfb3b4b7a8453ac17b421fa0c5f765c4ebb5a3139a7a6a7a7118b85a",
+    "file": "kanto_ascendant-6.7.3.zip",
+    "sha256": "9b93265c9590dfb90db86459cbe18859e9ac6507ba86880030cf740939c35371",
+    "baseSha256": "fa7054c819839dc05531c94b98c240f4475692a9fffbe88bc2700f895724cdcf",
     "changed": [
-      "life_of_rival.lua",
-      "manifest.json"
+      "manifest.json",
+      "story_level_cap.lua",
+      ".modkit/pack.json"
     ]
   }
 }
