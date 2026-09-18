@@ -1,23 +1,14 @@
 {
-  "vasc": {
-    "file": "Voxel-Ascendant-3.0.14.zip",
-    "sha256": "79018cd262975e4b8a1b137d014f0481e44b7c5117bbd21def065c4788a575e2",
-    "baseSha256": "99fc17e2a4e98f82819fab38547d3cfe9909d1ad4424a343917ded7da6889380",
-    "changed": [
-      "manifest.json",
-      "lib/VascBattleAnimPlayer.lua",
-      "gen2/lib/VascBattleAnimPlayer.lua",
-      "runtime-receipt.json"
-    ]
-  },
   "kasc": {
-    "file": "kanto_ascendant-6.7.3.zip",
-    "sha256": "9b93265c9590dfb90db86459cbe18859e9ac6507ba86880030cf740939c35371",
-    "baseSha256": "fa7054c819839dc05531c94b98c240f4475692a9fffbe88bc2700f895724cdcf",
-    "changed": [
-      "manifest.json",
-      "story_level_cap.lua",
-      ".modkit/pack.json"
-    ]
+    "file": "Kanto-Ascendant-6.7.14.zip",
+    "version": "6.7.14",
+    "sha256": "5356843bb014173acfd0a8c2008f4b820b1bb089ccd078c6a71b304f85ddc9ce",
+    "url": "https://github.com/Roxas2712/kanto-ascendant/releases/download/v6.7.14/Kanto-Ascendant-6.7.14.zip"
+  },
+  "vasc": {
+    "file": "Voxel-Ascendant-3.0.29.zip",
+    "version": "3.0.29",
+    "sha256": "bfbc42d8cb4407a1e195abb740482a4900da532a6d98f99961003b1fcab99b39",
+    "url": "https://github.com/Roxas2712/voxel-ascendant/releases/download/v3.0.29/Voxel-Ascendant-3.0.29.zip"
   }
 }

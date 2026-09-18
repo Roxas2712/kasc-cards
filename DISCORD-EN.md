@@ -1,9 +1,9 @@
-# KASC Cards — HD Download Fallback
+**KASC Cards 1.3.0 — updated for KASC 6.7.14 + VASC 3.0.29**
 
-Updated Red, Blue and Yellow Cards pin **KASC 6.7.0-rc.5** and **VASC 3.0.0-rc.15.1** with their exact ZIP SHA256 checksums. VASC automatically retries failed HD content requests through the additional hosting address. KASC adds only the matching version admission and retains the RC4 NG+ performance fix.
+Red, Blue and Yellow Cards now use the current release pair, including the compact-save fix and readable battle sprite sizes.
 
-Download the `.g1rcart` for your edition, import it, update both pinned mods and restart the game. Keep saves and mod_storage. All three Card IDs, artwork, options, seal and save scope are preserved. Cards contain configuration/art only, with no ROMs or mod-code copies.
+Download/import the new Card for your edition, update both pinned mods and fully restart the game. Old sealed Cards remain pinned to their old versions, so please update the Card itself too.
 
-- [KASC mod](https://github.com/Roxas2712/kanto-ascendant/releases/tag/v6.7.0-rc.5)
-- [VASC mod](https://github.com/Roxas2712/voxel-ascendant/releases/tag/v3.0.0-rc.15.1)
-- Index: https://raw.githubusercontent.com/Roxas2712/kasc-cards/main/kasc-card-index.json
+Your Card ID, artwork, settings and save scope stay the same. Keep saves, mod_storage and optional sprite content.
+
+https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.0

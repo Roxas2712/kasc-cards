@@ -65,6 +65,8 @@ return function(ownerMod)
       ["3.0.0-rc.13"] = "roxas2712-voxel-ascendant-rc13-battle-continuity-compat",
       ["3.0.0-rc.14"] = "roxas2712-voxel-ascendant-rc14-windows-recovery-compat",
       ["3.0.0-rc.15"] = "roxas2712-voxel-ascendant-rc15-wildlife-returns-compat",
+      ["3.0.0-rc.15.1"] = "roxas2712-voxel-ascendant-rc15.1-closed-facade-compat",
+      ["3.0.4"] = "roxas2712-voxel-ascendant-3.0.4-live-facade-compat",
     },
     DRAMALESS_SHAPE = {
       ["1.6.2-ST.190.1"] = "artyrambles-classic-release-0190-compat",

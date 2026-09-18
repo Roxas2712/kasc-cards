@@ -1,10 +1,12 @@
-# KASC Cards aktualisieren
+# KASC Cards 1.3.0 aktualisieren
 
-1. Spiel vollständig schließen. Spielstände und mod_storage/Vermächtnisbank behalten und sichern.
-2. Unter „Find mods“ die Quelle https://raw.githubusercontent.com/Roxas2712/kasc-cards/main/kasc-card-index.json hinzufügen oder aktualisieren.
-3. Card **1.3.0-rc.5** für Rot, Blau oder Gelb importieren.
-4. Beide gebundenen Mods aktualisieren: **KASC 6.7.0-rc.5** und **VASC 3.0.0-rc.15.1 (HD Download Fallback)**. Spiel neu starten.
+Die neuen Cards binden KASC 6.7.14 und VASC 3.0.29 ein. Alte versiegelte Cards bleiben an ihre alten Mod-Versionen gebunden; deshalb auch die Card selbst aktualisieren.
 
-VASC versucht bei Downloadfehlern automatisch die alternative Hosting-Adresse. In der Hilfe steht keine persönliche Adresse. Beide Hosting-Wege nutzen Cloudflare; ein vollständiger Cloudflare-Ausfall wird dadurch nicht sicher überbrückt.
+1. Spiel vollständig schließen. Spielstände und `mod_storage`/Vermächtnisbank behalten und sichern.
+2. Unter „Find mods“ die Quelle https://raw.githubusercontent.com/Roxas2712/kasc-cards/main/kasc-card-index.json hinzufügen oder aktualisieren. Auch die frühere Quelle im KASC-Branch `codex/kasc-6.7-card-distribution` wird aktualisiert.
+3. [Card 1.3.0 für Rot, Blau oder Gelb](https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.0) importieren. Die vorhandene Card derselben Edition aktualisieren; ihre ID bleibt gleich.
+4. Beide gebundenen Mods installieren/aktualisieren: KASC 6.7.14 und VASC 3.0.29. Spiel vollständig neu starten.
 
-IDs, Bilder, Optionen und Speicherbereiche der Cards bleiben erhalten. Die eigene passende ROM und ein Host mit Custom Cards werden benötigt. Bei manueller Installation die Mod-ZIPs aus den verlinkten Releases nutzen. Keine Bankdaten löschen. KASCs RC4-NG+-Performancefix bleibt enthalten.
+IDs, Bilder, Optionen, Ladereihenfolge, Versiegelung und Speicherbereiche bleiben erhalten. Keine Card-Spielstände, Bankdaten oder vorhandenen optionalen Sprite-Pakete löschen. Es wird weiterhin die eigene passende ROM benötigt. Normale Spielstände außerhalb einer Card werden nicht automatisch in deren Speicherbereich übernommen.
+
+Bei manueller Installation die Mod-ZIPs aus den verlinkten Releases verwenden, nicht GitHubs „Source code“-Archive. Die optionalen Desktop-Installer „Preserve-Installed-Sprites“ sichern bestehende Mod-Ordner und erhalten ausgelassene optionale Grafiken. Details stehen in den jeweiligen Release-Hinweisen.
