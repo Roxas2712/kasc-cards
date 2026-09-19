@@ -1,9 +1,4 @@
-**KASC Cards 1.3.0 — updated for KASC 6.7.14 + VASC 3.0.29**
-
-Red, Blue and Yellow Cards now use the current release pair, including the compact-save fix and readable battle sprite sizes.
-
-Download/import the new Card for your edition, update both pinned mods and fully restart the game. Old sealed Cards remain pinned to their old versions, so please update the Card itself too.
-
-Your Card ID, artwork, settings and save scope stay the same. Keep saves, mod_storage and optional sprite content.
-
-https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.0
+**Custom Cards 1.3.1 are available!**
+Red, Blue and Yellow Cards now use **KASC 6.7.16 + VASC 3.0.33**.
+Import the updated Card for your edition, update both mods and restart. Existing Card IDs and save scope are preserved; keep your saves and downloaded sprites. Old sealed Cards stay pinned to older mod versions.
+https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.1

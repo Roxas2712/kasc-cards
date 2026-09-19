@@ -3,7 +3,7 @@ import hashlib,json,urllib.request
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 ROOT=Path(__file__).resolve().parents[1]
-DESTINATIONS=[('kasc-cards','v1.3.0'),('kanto-ascendant','v6.7.14'),('voxel-ascendant','v3.0.29')]
+DESTINATIONS=[('kasc-cards','v1.3.1'),('kanto-ascendant','v6.7.16'),('voxel-ascendant','v3.0.33')]
 def get(url):
     with urllib.request.urlopen(url,timeout=60) as response:return response.read()
 def check(line):
@@ -27,6 +27,6 @@ if __name__=='__main__':
         asset=next(a for a in release['assets'] if a['name']==expected['file'])
         assert asset['digest']=='sha256:'+expected['sha256']
     latest=json.loads(get('https://api.github.com/repos/Roxas2712/kasc-cards/releases/latest'))
-    assert latest['tag_name']=='v1.3.0' and not latest['prerelease'] and not latest['draft']
+    assert latest['tag_name']=='v1.3.1' and not latest['prerelease'] and not latest['draft']
     assert len((ROOT/'DISCORD-EN.md').read_text())<=2000
     print(json.dumps(dict(status='PASS',files=files,allThreeReleaseDownloads=True,bothPublicIndexesExact=True,publicModHashesVerified=True,publicStableLatest=True),indent=2))

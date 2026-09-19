@@ -1,7 +1,9 @@
-# KASC Cards 1.3.0 — Current KASC/VASC release pair
+# KASC Cards 1.3.1 — VASC lighting and scenery update
 
-Red, Blue and Yellow Cards now pin **KASC 6.7.14 + VASC 3.0.29**, replacing the old 6.7.3 / 3.0.14 pair. This brings the compact-save fix, readable bounded battle sizes, sprite maintenance and accumulated gameplay fixes into the sealed Card configuration.
+Updated Red, Blue and Yellow Custom Cards pin **KASC 6.7.16 + VASC 3.0.33** with the exact verified release ZIP checksums. This replaces the 6.7.14 / 3.0.29 pair in Cards 1.3.0.
 
-Import the new Card for your edition, update both pinned mods and restart the game. Card IDs, artwork, options, load order, seal and save scope are preserved. Keep existing saves, mod_storage and optional sprite content. No ROM or mod-code copies are included.
+The new pair includes VASC's optional Gen1 dynamic lighting, rooftop and world repairs, improved MAP battle handling and the accumulated VASC fixes, plus KASC's PC box visibility fix, Yellow NG+ Thunderheart progression and Cerulean Cave Rocket raid checkpoint fixes. VASC's Johto features belong to the normal Gold/Crystal mod installation; these three Cards remain Red/Blue/Yellow Cards.
 
-Both the current Cards index and the original KASC index address point to the updated Cards. Previous Card files remain available for rollback. Native Card codec, exact-pin index resolution and KASC compatibility checks pass on engine 0.2.57 and 0.2.61; physical mobile-device testing remains pending.
+Import the new Card for your edition, update both pinned mods and fully restart. Card IDs, artwork, options, load order, seal and save scope are unchanged. Keep saves, mod_storage and optional sprite downloads. No ROM or mod-code copies are included. Older Card files remain available for rollback.
+
+Native engine Card decoding/encoding, exact index resolution, unchanged save identity and KASC compatibility gates are verified. These checks do not constitute physical phone testing.
