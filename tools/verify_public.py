@@ -20,7 +20,8 @@ if __name__=='__main__':
     for repo,tag in DESTINATIONS:
         base=f'https://github.com/Roxas2712/{repo}/releases/download/{tag}/'
         for name in ['kasc-card-index.json','SHA256SUMS.txt']:
-            assert get(base+name)==(ROOT/name).read_bytes()
+            remote_name = 'KASC-Cards-1.3.1-SHA256SUMS.txt' if name == 'SHA256SUMS.txt' and repo != 'kasc-cards' else name
+            assert get(base+remote_name)==(ROOT/name).read_bytes()
     for key,repo in [('kasc','kanto-ascendant'),('vasc','voxel-ascendant')]:
         expected=json.loads((ROOT/'verification-data/PACKAGE-RECEIPTS.json').read_text())[key]
         release=json.loads(get(f'https://api.github.com/repos/Roxas2712/{repo}/releases/tags/v'+expected['version']))
