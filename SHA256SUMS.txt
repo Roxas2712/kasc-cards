@@ -1,3 +1,3 @@
-2d478e11688a782c7afcf6f91fcde71fa5a0e4f35029e0fce43e06691f045894  cards/kanto-ascendant-blue-1.3.3.g1rcart
-4a0659ce7250a70be805fcb626ad8e3b74a3aba22fb3137ac5da4ff8b0d24b0f  cards/kanto-ascendant-red-1.3.3.g1rcart
-ce6a9e0344739ba8eb3d867cbfd80332c8d9a58e176082242bac5b79ce1ca150  cards/kanto-ascendant-yellow-1.3.3.g1rcart
+f09d054bb2415b505364845d192344b5ad9807b03606cc7f3e9df3d280681f14  cards/kanto-ascendant-blue-1.3.4.g1rcart
+0258b67d6f425aaa824eb4737f39bc4644096d5831ebc13c797507a7c635844b  cards/kanto-ascendant-red-1.3.4.g1rcart
+f313f54c2646a95c91df4c1e7b1377e3cf7b7c3b1d40eb3b8746d2e660db1682  cards/kanto-ascendant-yellow-1.3.4.g1rcart

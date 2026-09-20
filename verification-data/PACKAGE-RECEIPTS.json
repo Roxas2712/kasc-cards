@@ -1,14 +1,14 @@
 {
   "kasc": {
-    "file": "Kanto-Ascendant-6.7.17.zip",
-    "version": "6.7.17",
-    "sha256": "92d6cdfc1ca8e9aa03d1e7fe886372a2651f1344b41b36e5a5331e3702b1c210",
-    "url": "https://github.com/Roxas2712/kanto-ascendant/releases/download/v6.7.17/Kanto-Ascendant-6.7.17.zip"
+    "version": "6.7.18",
+    "file": "Kanto-Ascendant-6.7.18.zip",
+    "sha256": "6e57671381313f27a8b7b559e8ffd3159c8abf34a931fd7dd9745b3e16dc0d71",
+    "url": "https://github.com/Roxas2712/kanto-ascendant/releases/download/v6.7.18/Kanto-Ascendant-6.7.18.zip"
   },
   "vasc": {
-    "file": "Voxel-Ascendant-3.0.35.zip",
-    "version": "3.0.35",
-    "sha256": "8e5d78d8d6c88fdadb2ebfbd448794ffc945777816124db00f3dcbec661160dc",
-    "url": "https://github.com/Roxas2712/voxel-ascendant/releases/download/v3.0.35/Voxel-Ascendant-3.0.35.zip"
+    "version": "3.0.36",
+    "file": "Voxel-Ascendant-3.0.36.zip",
+    "sha256": "7c9da612086d007e85cfca28ebe934ebb4c935c21b684d7a68d845d9f5357b46",
+    "url": "https://github.com/Roxas2712/voxel-ascendant/releases/download/v3.0.36/Voxel-Ascendant-3.0.36.zip"
   }
 }
