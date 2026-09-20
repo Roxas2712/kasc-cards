@@ -1,11 +1,11 @@
-**Custom Cards 1.3.2 - Changes since 1.3.1**
+**Custom Cards 1.3.3 — Steam Deck hotfix**
 
-• Updated Red, Blue and Yellow Cards to **KASC 6.7.17 + VASC 3.0.34**.
-• Includes the new Omega Dias terrariums, mist/smoke, optional lighting and battle orientation.
-• Includes the Moltres volcano, legendary-area improvements, animated encounters and HD-source priority.
-• Includes the rooftop seating, Deoxys puzzle and Hoenn visibility fixes.
-• Existing Card IDs and save scope stay unchanged - keep your saves and downloaded sprites!
+• Red, Blue and Yellow Cards now pin KASC 6.7.17 + VASC 3.0.35.
+• Recognized Steam Deck hardware uses balanced AUTO graphics instead of HIGH.
+• Smaller world/battle/terrarium lighting budgets; HD choices stay intact.
+• Bounded menu text cache reduces repeated allocations.
+• Existing saves, Card identity, artwork and downloaded sprites stay intact.
 
-**Import the new Card for your edition, update both mods and restart.** Older sealed Cards remain pinned to their previous versions.
+Import the new Card for your edition, update VASC and restart. Select AUTO if you previously chose a manual profile. Physical Steam Deck FPS still needs verification.
 
-https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.2
+https://github.com/Roxas2712/kasc-cards/releases/tag/v1.3.3
