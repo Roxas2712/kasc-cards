@@ -7,12 +7,12 @@ local function read(p)local f=assert(io.open(p,'rb'));local b=f:read('*a');f:clo
 local function write(p,b)local f=assert(io.open(p,'wb'));f:write(b);f:close()end
 local receipts=assert(J.decode(read(repo..'/verification-data/PACKAGE-RECEIPTS.json')))
 for _,edition in ipairs({'red','blue','yellow'})do
- local cart=assert(C.decode(read(repo..'/cards/kanto-ascendant-'..edition..'-1.3.0.g1rcart')))
- cart.version='1.3.1'
+ local cart=assert(C.decode(read(repo..'/cards/kanto-ascendant-'..edition..'-1.3.1.g1rcart')))
+ cart.version='1.3.2'
  for _,pin in ipairs(cart.mods)do
   local release=assert(receipts[pin.id=='kanto_ascendant' and 'kasc' or 'vasc'])
   pin.version=release.version;pin.sha256=release.sha256
  end
- assert(C.publishable(cart));write(repo..'/cards/kanto-ascendant-'..edition..'-1.3.1.g1rcart',C.encode(cart))
- print('BUILT '..edition..' 1.3.1')
+ assert(C.publishable(cart));write(repo..'/cards/kanto-ascendant-'..edition..'-1.3.2.g1rcart',C.encode(cart))
+ print('BUILT '..edition..' 1.3.2')
 end

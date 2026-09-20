@@ -1,9 +1,12 @@
-# KASC Cards 1.3.1 — VASC lighting and scenery update
+# KASC Cards 1.3.2 - Terrariums and legendary worlds
 
-Updated Red, Blue and Yellow Custom Cards pin **KASC 6.7.16 + VASC 3.0.33** with the exact verified release ZIP checksums. This replaces the 6.7.14 / 3.0.29 pair in Cards 1.3.0.
+Updated Red, Blue and Yellow Custom Cards pin **KASC 6.7.17 + VASC 3.0.34** with the exact verified public ZIP checksums.
 
-The new pair includes VASC's optional Gen1 dynamic lighting, rooftop and world repairs, improved MAP battle handling and the accumulated VASC fixes, plus KASC's PC box visibility fix, Yellow NG+ Thunderheart progression and Cerulean Cave Rocket raid checkpoint fixes. VASC's Johto features belong to the normal Gold/Crystal mod installation; these three Cards remain Red/Blue/Yellow Cards.
+- 15 Omega Dias terrariums, mist/smoke, optional stage lighting and selectable battle orientation.
+- Moltres volcano and supported legendary-area scenery, animated world encounters and HD-source priority.
+- Rooftop seating, Deoxys puzzle positioning and Hoenn voxel visibility fixes; includes the preceding PC-box fix.
+- Card IDs, artwork, options, load order, seals and save scope are unchanged.
 
-Import the new Card for your edition, update both pinned mods and fully restart. Card IDs, artwork, options, load order, seal and save scope are unchanged. Keep saves, mod_storage and optional sprite downloads. No ROM or mod-code copies are included. Older Card files remain available for rollback.
+Import the new `.g1rcart` for your edition, update both pinned mods and fully restart. Keep saves, mod_storage and optional HD/sprite downloads. Older sealed Cards stay pinned to their original versions; older downloads remain available. These Cards are for Red/Blue/Yellow. They contain launch configuration and artwork, no ROM or mod-code copies.
 
-Native engine Card decoding/encoding, exact index resolution, unchanged save identity and KASC compatibility gates are verified. These checks do not constitute physical phone testing.
+Native Card codec, exact index resolution, save identity and compatibility checks passed on engine 0.2.61.
